@@ -22,6 +22,14 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
+       - uses: s4u/maven-settings-action@v2.2.0
+        with:
+          servers: |
+            [{
+                "id": "github-oidc-sdk",
+                "username": "${{ secrets.MAVEN_USER }}",
+                "password": "${{ secrets.MAVEN_PASSWORD }}"
+            }]
       - name: Build with Maven
         run: mvn -B test
 
