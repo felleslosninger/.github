@@ -1,7 +1,7 @@
 {
     "name": "Digdir FDF eID Organization Workflow",
     "description": "FDF eID Organization CI workflow template for building maven tests.",
-    "iconName": "eid-maventests-icon",
+    "iconName": "eid-maventests",
     "categories": [
         "java"
     ],

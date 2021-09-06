@@ -1,0 +1,11 @@
+{
+    "name": "Digdir FDF eID Organization Workflow",
+    "description": "FDF eID Organization CI workflow template for building Docker image.",
+    "iconName": "eid-maven-build-image",
+    "categories": [
+        "docker"
+    ],
+    "filePatterns": [
+        "pom.xml"
+    ]
+}
