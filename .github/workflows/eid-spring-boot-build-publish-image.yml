@@ -89,4 +89,4 @@ jobs:
             token: ${{ secrets.eid-build-token }}
             event-type: update-idporten-version
             repository: 'felleslosninger/idporten-cd'
-            client-payload: '{"application": "${{env.APPLICATION}}", "image": "${{secrets.registry-url}}/${{env.APPLICATION}}:${{env.IMAGETAG}}","version":"${{env.IMAGETAG}}@${{env.IMAGE_DIGEST}}"}'
+            client-payload: '{"application": "${{env.APPLICATION}}", "image": "${{secrets.registry-url}}/${{env.APPLICATION}}:${{env.IMAGETAG}}@${{env.IMAGE_DIGEST}}","version":"${{env.IMAGETAG}}"}'
