@@ -1,7 +1,13 @@
 # Reporting Security Issues
 
-Please use GitHub Security Advisory in current repository: "Security" -> "Advisories" -> "New draft security advisory" (/security/advisories/new). Or send us an e-mail on <a href = "mailto: security@digdir.no">security@digdir.no</a>.
+Contact: mailto:sikkerhet@digdir.no
 
-Contact: mailto:security@digdir.no  
-Expires: 2024-11-10T00:00:00.000Z  
+Expires: 2025-11-10T00:00:00.000Z
+
 Preferred-Languages: no, en
+
+Acknowledgments: https://www.digdir.no/digdir/responsible-disclosure-policy/6386#acknowledgments
+
+Policy: https://www.digdir.no/digdir/responsible-disclosure-policy/6386
+
+Hiring: https://www.digdir.no/digdir/jobbe-i-digitaliseringsdirektoratet/705
