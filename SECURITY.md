@@ -2,7 +2,7 @@
 
 Contact: mailto:sikkerhet@digdir.no
 
-Expires: 2025-11-10T00:00:00.000Z
+Expires: 2027-11-10T00:00:00.000Z
 
 Preferred-Languages: no, en
 
