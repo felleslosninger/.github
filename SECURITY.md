@@ -1,13 +1,31 @@
-# Reporting Security Issues
+Thanks for helping make Digdir's products safe for everyone.
 
-Contact: mailto:sikkerhet@digdir.no
+# Security
 
-Expires: 2027-11-10T00:00:00.000Z
+Digdir takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations,
+such as [Altinn](https://github.com/Altinn), [Digdir](https://github.com/digdir), [Fellesløsninger](https://github.com/felleslosninger) and [Eudi-wallet-no](https://github.com/eudi-wallet-no).
 
-Preferred-Languages: no, en
+## Reporting Security Issues
 
-Acknowledgments: https://www.digdir.no/digdir/responsible-disclosure-policy/6386#acknowledgments
+If you believe you have found a security vulnerability in any Digdir-owned repository, please report it to us through coordinated disclosure.
 
-Policy: https://www.digdir.no/digdir/responsible-disclosure-policy/6386
+> [!IMPORTANT]
+> Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
 
-Hiring: https://www.digdir.no/digdir/jobbe-i-digitaliseringsdirektoratet/705
+Instead, contact us through the channels described in our [security.txt](https://www.digdir.no/.well-known/security.txt).
+
+Please include as much of the information listed below as you can to help us better understand and resolve the issue:
+
+  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
+  * Full paths of source file(s) related to the manifestation of the issue
+  * The location of the affected source code (tag/branch/commit or direct URL)
+  * Any special configuration required to reproduce the issue
+  * Step-by-step instructions to reproduce the issue
+  * Proof-of-concept or exploit code (if possible)
+  * Impact of the issue, including how an attacker might exploit the issue
+
+This information will help us triage your report more quickly.
+
+## Policy
+
+See [Digdir's Responsible Disclosure Policy](https://www.digdir.no/digdir/responsible-disclosure-policy/6386)
